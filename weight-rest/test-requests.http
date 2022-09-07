@@ -1,0 +1,107 @@
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Squat",
+    "reps": 10,
+    "weight": 10,
+    "unit": "lbs",
+    "date": "07-30-21"
+}
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Push-Up",
+    "reps": 25,
+    "weight": 0,
+    "unit": "kg",
+    "date": "08-06-21"
+}
+
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Bicep Curl",
+    "reps": 15,
+    "weight": 35,
+    "unit": "lbs",
+    "date": "asdfasd"
+}
+###
+GET http://localhost:3000/exercises HTTP/1.1
+
+###
+GET http://localhost:3000/exercises/610dfbce38dd382184754f33 HTTP/1.1
+
+###
+
+PUT http://localhost:3000/exercises/610dfbce38dd382184754f33 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Sprint",
+    "reps": 15,
+    "weight": 0,
+    "unit": "kg",
+    "date": "08-06-20"
+}
+
+###
+DELETE http://localhost:3000/exercises/610dfbce38dd382184754f33 HTTP/1.1
+
+
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Bench Press",
+    "reps": 10,
+    "weight": 185,
+    "unit": "lbs",
+    "date": "05-16-22"
+}
+
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Mixer",
+    "reps": 10,
+    "weight": 100,
+    "unit": "kg",
+    "date": "05-16-22"
+}
+
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Crunch",
+    "reps": 50,
+    "weight": 0,
+    "unit": "kg",
+    "date": "05-22-18"
+}
+
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Plank",
+    "reps": 3,
+    "weight": 5,
+    "unit": "lbs",
+    "date": "12-31-20"
+}
+
+
+
